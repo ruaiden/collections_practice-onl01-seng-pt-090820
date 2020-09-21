@@ -44,11 +44,11 @@ end
 
 def add_s(word)
 
-  word.map do |element| 
-    if element != word[1]
-      element << "s"
+  word.map do |x| 
+    if x != word[1]
+      x << "s"
     else
-      "s"
+      x
 end
 end
 end
