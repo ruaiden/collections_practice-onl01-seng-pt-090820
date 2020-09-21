@@ -32,7 +32,7 @@ end
   
 def find_a(find)
   
-  find.start_with("a")
+  find.select {|letter| letter.start_with?("a")}
 
 end
   
