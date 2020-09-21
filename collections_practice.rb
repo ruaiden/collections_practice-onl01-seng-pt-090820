@@ -44,7 +44,7 @@ end
 
 def add_s(word)
 
-  word.each_with_index.collect do |element, index| 
+  word.map do |element| 
     if index == 1 
       word
     else
