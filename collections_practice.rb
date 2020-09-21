@@ -27,7 +27,7 @@ def reverse_array (new)
 end
   
 def kesha_maker(kesh)
-  kesh.each{ |dollar| dollar.sort_by("$")}
+  kesh.each{ |third| third[2]="$"}
 end
   
 def find_a(find)
