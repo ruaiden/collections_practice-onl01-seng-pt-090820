@@ -9,7 +9,7 @@ def sort_array_desc(arrays)
   arrays.sort! {|x,y| y <=> x }
 end
 
-def sort_array_char_counts(arg)
+def sort_array_char_count(arg)
   
   arg.sort { |a,b| a.length <=> b.length }
   
