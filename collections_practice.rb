@@ -11,7 +11,7 @@ end
 
 def sort_array_char_counts(arg)
   
-  arg.sort_by(|arg|&:length)
+  arg.sort_by(&:length)
   
 end
 
