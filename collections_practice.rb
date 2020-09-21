@@ -45,10 +45,10 @@ end
 def add_s(word)
 
   word.map do |element| 
-    if index == 1 
-      word
+    if element != word[1]
+      element << "s"
     else
-      word + "s"
+      "s"
 end
 end
 end
