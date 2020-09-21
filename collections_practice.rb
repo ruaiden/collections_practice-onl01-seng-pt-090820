@@ -31,6 +31,10 @@ def kesha_maker(kesh)
   kesh.each{ |dollar| dollar.sort_by("$")}
 end
   
+def find_a(find)
   
+  find.start_with("a")
+
+end
   
   
